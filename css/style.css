@@ -16,11 +16,13 @@
 }
 
 button {
+    font-family: Montserrat, serif;
+    letter-spacing: 1px;
     text-decoration: none;
     border: 0;
     padding: 16px 32px;
     color: white;
-    background: black;
+    background: #332642;
     border-radius: 5px;
     cursor: pointer;
 }
