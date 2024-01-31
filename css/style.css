@@ -51,7 +51,7 @@
 }
 
 input:checked+.slider {
-    background: #000;
+    background: #332642;
 }
 
 input:checked+.slider::before {
@@ -60,4 +60,8 @@ input:checked+.slider::before {
 
 input {
     display: none;
+}
+
+.dark-mode {
+    background: #121212;
 }
