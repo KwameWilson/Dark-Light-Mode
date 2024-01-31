@@ -57,3 +57,7 @@ input:checked+.slider {
 input:checked+.slider::before {
     transform: translateX(48px);
 }
+
+input {
+    display: none;
+}
