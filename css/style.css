@@ -15,7 +15,7 @@
     gap: 24px;
 }
 
-button {
+/* button {
     font-family: Montserrat, serif;
     letter-spacing: 1px;
     text-decoration: none;
@@ -25,4 +25,35 @@ button {
     background: #332642;
     border-radius: 5px;
     cursor: pointer;
+} */
+
+
+.slider {
+    background: #cfcfcf;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    transition: 0.2s ease-out;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    left: 4px;
+    bottom: 3px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+input:checked+.slider {
+    background: #000;
+}
+
+input:checked+.slider::before {
+    transform: translateX(48px);
 }
